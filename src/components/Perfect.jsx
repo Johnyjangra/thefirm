@@ -10,12 +10,12 @@ import lightyellow from "../assets/images/svg/lightyellow.svg";
 
 const Perfect = () => {
   return (
-    <section className="mt-5 pt-5">
+    <section className="mt-5 py-5 overflow-hidden">
       <Container>
         <Row className="align-items-center justify-content-between">
           <Col lg={6} className="position-relative">
             <div className="position-absolute group_set group_img_animat">
-              <img className='w_sm_80' src={fgroup} alt="fgroup" />
+              <img className="w_sm_80" src={fgroup} alt="fgroup" />
             </div>
             <div className="position-relative">
               <div className="position-absolute l_53">
@@ -26,7 +26,7 @@ const Perfect = () => {
               </div>
               <div className="d-flex align-items-center flex-sm-row flex-column">
                 <div className="">
-                  <div className="mx_285 text-center card_bg card_1_animat">
+                  <div className="mx_285 text-center card_bg card_1_animat box_shadow">
                     <img src={msg} alt="msg" />
                     <h1 className="ff_nunito fw_700 fs_3xl clr_light_black pt_30">
                       Coaching
@@ -35,7 +35,7 @@ const Perfect = () => {
                       Loren rasion gravida auem is bibenua tase
                     </p>
                   </div>
-                  <div className="mx_285 text-center card_bg position-relative l_10 mt_70 l_xsm_0">
+                  <div className="mx_285 text-center card_bg position-relative l_10 mt_70 l_xsm_0 box_shadow">
                     <img src={horn} alt="horn" />
                     <h1 className="ff_nunito fw_700 fs_3xl clr_light_black pt_30">
                       SEO
@@ -49,7 +49,7 @@ const Perfect = () => {
                   <div className="position-absolute light_yellow_set">
                     <img src={lightyellow} alt="lightyellow" />
                   </div>
-                  <div className="mx_285 text-center card_bg ms_80 ms_xsm_0">
+                  <div className="mx_285 text-center card_bg ms_80 ms_xsm_0 box_shadow">
                     <img src={conversation} alt="conversation" />
                     <h1 className="ff_nunito fw_700 fs_3xl clr_light_black pt_30">
                       Digital Partner
@@ -63,7 +63,7 @@ const Perfect = () => {
             </div>
           </Col>
           <Col lg={5}>
-            <div className='pt-lg-0 pt-5'>
+            <div className="pt-lg-0 pt-5">
               <h1 className="ff_nunito fw_900 fs_4xxl clr_light_black mb-0 text-lg-start text-center">
                 Perfect Solution for Your Bussiness{" "}
               </h1>
@@ -74,7 +74,7 @@ const Perfect = () => {
                 of type and scrambled it to make a type specimen book. It has
                 survived not only five centuries,
               </p>
-              <div className='text-lg-start text-center'>
+              <div className="text-lg-start text-center">
                 <button className="ff_nunito ff_700 fs_xl clr_white bg_clr_yellow yellow_border p_9_21_10_22  hover_bg_white mt_32">
                   Get in Touch
                 </button>
