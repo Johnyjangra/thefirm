@@ -15,6 +15,7 @@ import Blog from './components/Blog';
 import Map from './components/Map';
 import Footer from './components/Footer';
 import TopToBottom from './components/Top';
+import Testimonial from './components/Testimonial';
 
 function App() {
   return (
@@ -28,10 +29,11 @@ function App() {
       <Branding/>
       <Research/>
       <Blog/>
-      <Map/>
+      <Testimonial />
+      <Map />
+      
       <Footer/>
       <TopToBottom/>
-      
     </>
   );
 }
